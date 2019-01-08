@@ -138,7 +138,7 @@ function [P, M_min, l, omega, M] = cmean(X, L)
         for i=1:size(X,2)
             % Check distance for each class.
             for j=1:L
-                d(j) = (X(:,i)-M(:,j))'*(X(:,i)-M(:,j));
+                d(j) = norm(X(:,i)-M(:,j));
             end
             [k ind] = min(d); % Find closest M vector. 
             % Reclassify if needed. 
