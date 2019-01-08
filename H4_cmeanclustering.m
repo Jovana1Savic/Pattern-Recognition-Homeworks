@@ -178,7 +178,7 @@ function p = plotClasses(X, omega, t)
 %   Plots results of clustering in new figure. X is the set of vectors and
 %   omega is their classification. Sets title to t. 
     
-    L = size(unique(omega),2); % Number of classes. 
+    L = max(omega); % Number of classes. 
     figure,
     s = 'class1';
     for i=1:L
