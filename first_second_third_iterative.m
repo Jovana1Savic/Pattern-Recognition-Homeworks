@@ -1,7 +1,7 @@
 % Pattern recognition - Homework 3
 % Linear classifier - First, second and third iterative procedure. 
 
-% Generates 100 points from each of the 2 classes. Classes are linearly
+% Generates 1000 points from each of the 2 classes. Classes are linearly
 % separable and have normal distribution. 
 % A linear classifier is calculated using first iterative procedure. A
 % dependency of error based on parameter s is plotted. Optimal s is found
@@ -21,7 +21,7 @@ clear all
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Generate 500 points from each of two 2-dimensional classes. 
+% Generate 1000 points from each of two 2-dimensional classes. 
 % Probability density functions are defined as:
 % f1(X) = N(M1, S1)
 % f2(X) = N(M2, S2)
